@@ -1,0 +1,35 @@
+package de.unistgt.ipvs.vs.ex1.server;
+
+import de.unistgt.ipvs.vs.ex1.common.ICalculation;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Date;
+/**
+ * Add fields and methods to this class as necessary to fulfill the assignment.
+ */
+public class CalculationSession implements Runnable {
+		private Socket socket;
+		private ObjectInputStream oisIn;
+		private ObjectOutputStream oosOut;
+		private CalculationImpl calMethode;
+        public CalculationSession(Socket mySocket) {
+		// TODO Auto-generated constructor stub
+        	this.socket=mySocket;
+        	try {
+        		this.oisIn=new ObjectInputStream(this.socket.getInputStream());
+        		this.oosOut=new ObjectOutputStream(this.socket.getOutputStream());
+        		this.calMethode=new CalculationImpl();
+        		
+        	}catch(Exception e) {
+        		System.err.println(e.getMessage());
+        		e.printStackTrace();
+        	}
+        	
+	}
+
+		public void run() {
+         }
+}

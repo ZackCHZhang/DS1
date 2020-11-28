@@ -1,0 +1,18 @@
+package de.unistgt.ipvs.vs.ex1.server;
+
+import de.unistgt.ipvs.vs.ex1.common.ICalculation;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Date;
+/**
+ * Add fields and methods to this class as necessary to fulfill the assignment.
+ */
+public class CalculationSession implements Runnable {
+         public CalculationSession(Socket mySocket) {
+		// TODO Auto-generated constructor stub
+	}
+
+		public void run() {
+         }
+}
