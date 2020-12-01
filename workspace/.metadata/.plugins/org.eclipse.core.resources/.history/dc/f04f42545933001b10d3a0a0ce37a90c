@@ -1,0 +1,37 @@
+package de.unistgt.ipvs.vs.ex2.server;
+
+import java.rmi.RemoteException;
+import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.UnicastRemoteObject;
+
+import de.unistgt.ipvs.vs.ex2.common.ICalculation;
+import de.unistgt.ipvs.vs.ex2.common.ICalculationFactory;
+
+/**
+ * Change this class (implementation/signature/...) as necessary to complete the assignment.
+ * You may also add some fields or methods.
+ */
+
+ public class CalculationImplFactory implements ICalculationFactory {
+ 	private static final long serialVersionUID = 8409100566761383094L;
+ 	
+ 	
+ 	public ICalculation getSession() throws RemoteException{
+		ICalculation calMethode=null;
+		
+		try {
+			calMethode=new CalculationImpl();
+		}catch(Exception e) {
+			System.err.println(e.getMessage());
+			e.printStackTrace();
+		}
+ 		
+		RMIServerSocketFactory ssf=new ServerSocketFactoryImpl();
+		ICalculation stub=(ICalculation) UnicastRemoteObject.exportObject(this,0,null.ssf);
+		return stub;
+		
+ 	}
+ 
+ 	
+ 
+ }

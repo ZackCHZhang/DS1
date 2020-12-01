@@ -6,5 +6,12 @@
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+    <fullyQualifiedTypeName name="de.unistgt.ipvs.vs.ex2.common.ICalculationFactory"/>
+    <fullyQualifiedTypeName name="java.rmi.server.RMIServerSocketFactory"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
+    <fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
+    <fullyQualifiedTypeName name="java.rmi.Naming"/>
 </qualifiedTypeNameHistroy>
