@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.buildship.ui.wizard.project.import">
-		<item key="project_location" value="E:\DSI_Assignments\Assignment2\handout"/>
+		<item key="project_location" value="E:\DSI_Assignments\Assignment5\uebung_3"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(6.8.1))"/>
 	</section>
 </section>

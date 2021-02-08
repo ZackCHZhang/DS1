@@ -2,5 +2,10 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606214903463_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606214903481_1" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606214905170_2" label="Window Working Set" name="Aggregate for window 1606214905170"/>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1611684703132_3" label="TODO" name="TODO">
+<item factoryID="org.eclipse.mylyn.tasks.ui.workingSets.elementFactory" handle.task="Uncategorized"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606214905170_2" label="Window Working Set" name="Aggregate for window 1606214905170">
+<workingSet IMemento.internal.id="TODO"/>
+</workingSet>
 </workingSetManager>

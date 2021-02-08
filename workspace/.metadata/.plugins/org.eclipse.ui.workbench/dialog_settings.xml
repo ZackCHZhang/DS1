@@ -4,10 +4,16 @@
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.buildship.ui.wizards.project.import"/>
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
 			<item value="org.eclipse.buildship.ui.importwizards"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="org.eclipse.mylyn.tasks.ui.wizards.export.category"/>
+			<item value="org.eclipse.team.ui.exportWizards"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
@@ -16,8 +22,13 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="E:\DSI_Assignments\Assignment5\ex03.zip"/>
+			<item value="E:\DSI_Assignments\Assignment2\ex02.zip"/>
+			<item value="E:\DSI_Assignments\Assignment2\ex01.zip"/>
 			<item value="E:\DSI_Assignments\Assignment2\ex01finish.zip"/>
 			<item value="E:\DSI_Assignments\Assignment2\ex01做完.zip"/>
 		</list>
+	</section>
+	<section name="ZipFileImportWizard">
 	</section>
 </section>
